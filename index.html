@@ -5,12 +5,46 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>SITE TITLE</title>
+    <title>Park Rides</title>
   </head>
   <body>
     <div class="container">
-      <h1>Look at this page!</h1>
-      <p>Isnt it pretty?</p>
+      <h1>Amusement Park</h1>
+      <form id="height-form">
+        <div class="form-group">
+          <label>Enter your height (in meters):</label>
+        </div>
+        <div class="form-group">
+          <input type="text">
+        </div>
+        <div class="form-group">
+          <button class="btn" type="submit">Go!</button>
+        </div>
+      </form>
+      <div class="hide" id="ride-list">
+        <h2>You can ride these rides:</h2>
+        <ul>
+          <li class="for-kids for-adults">
+            <h3 class="well">Carosel</h3>
+          </li>
+          <li class="for-kids for-adults">
+            <h3 class="well">Bumper Cars</h3>
+          </li>
+          <li class="for-adults">
+            <h3 class="well">DEATH MOUNTAIN COASTER</h3>
+          </li>
+          <li class="for-kids">
+            <h3 class="well">Kiddie Planes</h3>
+          </li>
+          <li class="for-adults">
+            <h3 class="well">10,000ft Drop</h3>
+          </li>
+          <li class="for-kids for-adults">
+            <h3 class="well">Ferris Wheel</h3>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </body>
 </html>
